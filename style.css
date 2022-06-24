@@ -57,7 +57,6 @@ ul{
   padding: 20px 0;
   font-size: 13px;
 }
-
 .main__nav .logo{
   width: 110px;
 }
@@ -81,6 +80,7 @@ ul{
 .main__menu ul.main__menu {
   flex: 1;
   margin-left: 20px;
+  transform: translateX(-500px);  /*This is causing error*/
 }
 
 .btn{
@@ -263,6 +263,7 @@ ul{
   margin-bottom: 20px;
 }
 
+
 @media (max-width:700px){
 
   .menu__btn{
@@ -288,7 +289,6 @@ ul{
   border-right: #ccc 1px solid;
   opacity: 0.9;
   padding: 30px;
-  transform: translateX(-500px);  /*This is causing error*/
   transition: transform 0.5s ease-in-out;
   } 
 
